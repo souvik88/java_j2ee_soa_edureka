@@ -20,7 +20,7 @@ public class DataTypes {
 		char strLetter = 'A'; // single letter
 		String strWord = "Hello World"; // a word or more than one word
 		System.out.println(strWord + " " + strLetter);
-
+		boolean isValid = false; // 1 byte, this is boolean 'true' or 'false' value
 	}
 
 }
