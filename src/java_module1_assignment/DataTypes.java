@@ -4,6 +4,7 @@ public class DataTypes {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// Write programs to use all the data types
 		byte b = 127; // 1 byte - 128 to 127
 		short s = 250; // 2 bytes
 		int i = 1000; // 4 bytes of memory
