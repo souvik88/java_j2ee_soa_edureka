@@ -1,15 +1,21 @@
 package java_module1_assignment;
+import java.util.Scanner;
 
 public class LargestNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Write a program to find largest of two numbers
-		int num1 = 42, num2 = 33;
-		if(num1 > num2) {
-			System.out.println("Num1 " + num1 + " is larger than num2 " + num2);
+		Scanner scanUser = new Scanner(System.in);
+		System.out.println("Enter a number1: ");
+		int userInput1 = scanUser.nextInt();
+		System.out.println("Enter a number2: ");
+		int userInput2 = scanUser.nextInt();
+		if(userInput1 > userInput2) {
+			System.out.println("Number1 " + userInput1 + " is larger than userInput2 " + userInput2);
 		} else {
-			System.out.println("Num2 " + num2 + " is larger than num1 " + num1);
+			System.out.println("Number2 " + userInput2 + " is larger than userInput1 " + userInput1);
 		}
+		scanUser.close();
 	}
 }
