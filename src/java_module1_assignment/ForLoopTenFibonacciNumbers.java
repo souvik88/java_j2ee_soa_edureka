@@ -17,5 +17,6 @@ public class ForLoopTenFibonacciNumbers {
 			t1 = t2;
 			t2 = sum;
 		}
+		userScan.close();
 	}
 }

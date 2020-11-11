@@ -6,7 +6,7 @@ public class DoWhileLoopTenFibonacciNumbers {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Write a program to generate 10 Fibonacci numbers using While Loop
+		// Write a program to generate 10 Fibonacci numbers using Do While Loop
 		Scanner userScan = new Scanner(System.in);
 		System.out.println("Enter a number ");
 		int userInput = userScan.nextInt();
