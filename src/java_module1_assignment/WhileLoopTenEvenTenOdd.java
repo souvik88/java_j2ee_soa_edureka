@@ -5,6 +5,7 @@ public class WhileLoopTenEvenTenOdd {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// Write a program to print 10 even numbers and 10 odd numbers using While Loop
 		Scanner userScan = new Scanner(System.in);
 		System.out.println("Enter the number Twenty to get 10 even & odd numbers: ");
 		int userInput = userScan.nextInt();

@@ -5,7 +5,7 @@ public class ForLoopTenEvenTenOdd {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Write a program to print 10 even numbers and 10 odd numbers
+		// Write a program to print 10 even numbers and 10 odd numbers using For Loop
 		Scanner scanUser = new Scanner(System.in);
 		System.out.println("Enter a number");
 		int userInput = scanUser.nextInt();
