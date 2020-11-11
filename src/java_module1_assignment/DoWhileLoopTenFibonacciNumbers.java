@@ -21,7 +21,5 @@ public class DoWhileLoopTenFibonacciNumbers {
 			i++;
 		} while (i <= userInput);
 		  userScan.close();
-
 	}
-
 }
