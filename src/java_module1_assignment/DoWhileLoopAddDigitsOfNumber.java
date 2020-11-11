@@ -6,6 +6,7 @@ public class DoWhileLoopAddDigitsOfNumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		// add digits of a number using Do While Loop
 		Scanner scanUser = new Scanner(System.in);
         System.out.println("Please enter a number to calculate sum of digits");
         int number = scanUser.nextInt();
@@ -19,5 +20,4 @@ public class DoWhileLoopAddDigitsOfNumber {
         System.out.printf("Sum of digits of number %d is %d", number, sum);
         scanUser.close();
 	}
-
 }
