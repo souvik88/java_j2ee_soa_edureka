@@ -16,5 +16,4 @@ public class ForLoopFactorialOfNumber {
 		System.out.println("Factorial of " + userInput + " is " + facto);
 		scanUser.close();
 	}
-
 }
