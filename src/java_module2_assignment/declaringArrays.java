@@ -14,7 +14,7 @@ public class declaringArrays {
 		
 		char charArr[] = new char[10];
 		char charArr2[] = {'A', 'B', 'C', 'D'};
-		
+		System.out.println(charArr2.length);
 	}
 
 }
